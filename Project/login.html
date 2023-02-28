@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login & Registration Form</title>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="container">
+<div class="form-box">
+<div class="button-box">
+ <div id="btn"></div>
+  <button type="button"class="toggle-btn"onclick="Login()">Login</button>
+  <button type="button"class="toggle-btn"onclick="Register()">Register</button>
+</div>
+<div class="social-icons">
+ <img src="fb.png">
+ <img src="tw.png">
+ <img src="gp.png">
+</div>
+<form>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <br>
+  <button type="button" id="login-button">Login</button>
+</form>
+
+<form id="Register" class="input-group">
+ <input type="text"class="input-field"placeholder="UserName" required>
+ <input type="email"class="input-field"placeholder="Email Id" required>
+ <input type="text"class="input-field"placeholder="Enter password" required>
+ <input type="checkbox"class="chechbox"><span>I agree to the terms & conditions</span>
+ <button type="submit"class="submit-btn">Register</button>
+</form>
+</div>
+</div>
+<script src="login.js"></script>
+</body>
+</html>
+

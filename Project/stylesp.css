@@ -1,0 +1,46 @@
+body {
+    background-image:url("pharm.jpg");
+    font-family: sans-serif;
+    padding: 20px;
+}
+a{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing:border-box;
+    }
+    
+    h1{
+    text-align:center;
+    color:green;
+    padding:20px;
+    }
+    nav{
+    background-color:lime;
+    display:grid;
+    place-items:center;
+    flex:1;
+    }
+    nav ul{
+    list-type-style:none;
+    }
+    nav ul li{
+    display: inline-block;
+    padding:20px;
+    text-decoration:none;
+    color:white;
+    transition:0.2s ease-in;
+    font-size:18px;
+    margin-right:20px;
+    }
+    
+    nav ul a:hover{
+    background-color:green;
+    color:white;
+    }
+    img{
+        display:block;
+        margin-left: 1px;
+        margin-right: 1px;
+        height: 25px;
+    }
